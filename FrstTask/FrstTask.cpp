@@ -2,12 +2,13 @@
 //Студент,
 //        давайте
 //               зачётку
-
-
 #include <iostream>
+#include <iomanip>
+
+using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Russian"); //Setted -ru locale
-    std::cout << "Студент,\n\tдавайте\n\t\tзачетку";
+    setlocale(LC_ALL, "Ru"); //Setted rus locale
+    cout << "Студент," << endl << setw(15) << "давайте" << endl << setw(22) << "зачетку";
 }
