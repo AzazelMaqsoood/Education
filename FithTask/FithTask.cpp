@@ -22,6 +22,7 @@ int main()
     cout << "Сумма введеных чисел = " << sum <<endl;
     cout << "Произведение введеных чисел = " << num1 * num2 * num3 << endl;
 
+    
     //float  sra = (round((float)sum / 3 * 10)) / 10;//Init SRA in float
     float  sra = (float)sum / 3;//Init SRA in float
 
