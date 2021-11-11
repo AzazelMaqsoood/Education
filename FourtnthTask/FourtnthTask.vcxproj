@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f91d5ac0-06f6-4f88-870b-774fe1f37b6c}</ProjectGuid>
-    <RootNamespace>EighthTask</RootNamespace>
+    <ProjectGuid>{1c3aac23-395e-45a6-8808-6df0309ad807}</ProjectGuid>
+    <RootNamespace>FourtnthTask</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EighthTask.cpp" />
+    <ClCompile Include="FourtnthTask.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
