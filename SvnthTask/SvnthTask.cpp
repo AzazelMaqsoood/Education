@@ -1,6 +1,4 @@
-﻿//5)Ввести с клавиатуры три целых числа, найти их сумму, 
-//  произведение и среднее арифметическое. 
-
+﻿
 #include <iostream>
 #include <ctime>
 
@@ -8,11 +6,11 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Ru");
-    srand(time(NULL)); //init func srand by value of func time
-    unsigned short int x = rand() % 1000; //gen random number
-    cout << x << endl;
-    cout << "x содержит: " << x / 100 << "сотен(ю)" << endl;
-    cout << "x содержит: " << x / 10 << "десятков(а)" << endl;
-    cout << "x содержит: " << x % 10 << "единиц(ы)" << endl;
+	setlocale(LC_ALL, "ru");
+	srand(time(NULL)); // инициализация функции rand значением функции time
+	unsigned short int x = rand() %1000; // сгенерировать секретное число
+	cout << x << endl;
+	cout << "х содержит: " << x / 100 << " ед. 3-го разряда" << endl;
+	cout << "х содержит: " << x / 10 << " ед. 2-го разряда" << endl;
+	cout << "х содержит: " << x % 10  << " ед. 1-го разряда" << endl;
 }
