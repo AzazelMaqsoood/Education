@@ -12,13 +12,12 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    float S, l;
-    int R;
+    float s, l, r;
     cout << "Введите радиус круга: ";
-    cin >> R;
-    S = M_PI * pow(R, 2);
-    l = 2 * M_PI * R;
-    cout << "Длина окружности: " << l << endl << "Площадь круга: " << S;
+    cin >> r;
+    s = M_PI * pow(r, 2);
+    l = 2 * M_PI * r;
+    cout << "Длина окружности: " << l << endl << "Площадь круга: " << s;
 
     return 0;
 }
