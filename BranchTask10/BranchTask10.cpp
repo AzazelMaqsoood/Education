@@ -8,7 +8,7 @@ int main()
     setlocale(LC_ALL, "Ru");
     short int month;
 
-    cout << "Введите номер месяца";
+    cout << "Введите номер месяца: ";
     cin >> month;
     if (month == 12 || month == 1 || month == 2)
     {

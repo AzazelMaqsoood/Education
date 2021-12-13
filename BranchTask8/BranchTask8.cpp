@@ -20,6 +20,6 @@ int main()
     isPositive = (x > 0 && y > 0);
     cout << "x и y положительные -" << boolalpha << isPositive << endl;
     isSameSign = (x * y == abs(x * y));
-    cout << "x и y имеют одинаковый знак -" << boolalpha << isPositive << endl;
+    cout << "x и y имеют одинаковый знак -" << boolalpha << isSameSign << endl;
 }
 
