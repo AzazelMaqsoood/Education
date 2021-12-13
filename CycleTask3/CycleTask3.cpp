@@ -16,7 +16,7 @@ int main()
 
             result = i;
 
-            cout << result << endl;
+            cout << result << ' ';
 
         }
     }
