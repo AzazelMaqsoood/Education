@@ -10,11 +10,14 @@ int main()
 
     cin >> number;
 
-    for (short i = 1; i <= number; i++)
+    for (short i = 1; i <= 8; i++)
     {
         if (i % 2 == 0) {
+
             result = i;
+
             cout << result << endl;
+
         }
     }
 }
