@@ -3,10 +3,10 @@
 
 using namespace std;
 
-void ReverseNumber(int number)
+int ReverseNumber(int number)
 {
     number = (number % 10) * 10 + number / 10;
-    cout << number;
+    return number;
 }
 
 int main()
@@ -17,6 +17,6 @@ int main()
     cout << "Введите двузначное число: ";
     cin >> number;
 
-    ReverseNumber(number);
+    cout << ReverseNumber(number);
 }
 
