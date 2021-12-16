@@ -12,9 +12,9 @@ int main()
 	cin >> firstNumber;
 	cin >> secondNumber;
 
-	for (short i = 1; i < secondNumber; i ++)
+	for (short i = 1; i <= secondNumber; i ++)
 	{
-		 result = firstNumber += firstNumber;
+		 result += firstNumber;
 	}
 
 	cout << result;

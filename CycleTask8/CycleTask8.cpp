@@ -11,9 +11,13 @@ int main()
     while (true)
     {
         cin >> x;
+        while (x != 0)
+        {
+            sum += x;
+            pro *= x;
+        }
         if (x == 0) break;
-        sum += x;
-        pro *= x;
+        
     }
     cout << sum << " " << pro;
     return 0;
