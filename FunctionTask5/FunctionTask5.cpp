@@ -1,26 +1,23 @@
 ﻿#include <iostream>
-
 using namespace std;
 
-int CountDigits(int N)
-{
-	int cnt = 0;
-	for (int i = 0; i <= N; i++)
-	{
-		N %= 10;
-		cnt = i;
-	}
-	return cnt;	
+void ReverseNumber(int number) {
+    int reverse = 0, rem;
+    while (number > 0) {
+        rem = number % 10;
+        reverse = reverse * 10 + rem;
+        number /= 10; 
+    }
+    cout << "Введенное число в обратном порядке цифр: " << reverse << endl;
 }
 
-int main()
-{
+int main() {
+
     setlocale(LC_ALL, "Ru");
 
-    short int N;
-	cin >> N;
-
-	cout << "Число имеет - " << CountDigits(N) << " знака(ов)";
-
+    int number;
+    cout << "Введите целое число: ";
+    cin >> number;
+    ReverseNumber(number);
+    return 0;
 }
-

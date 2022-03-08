@@ -7,8 +7,9 @@ int main()
 {
     setlocale(LC_ALL, "Ru");
 
-    short int number, rez = 0;
+    int number, rez = 0;
 
+    cout << "Введите число: ";
     cin >> number;
 
     while (number > 0)
@@ -16,6 +17,6 @@ int main()
         rez += number % 10;
         number /= 10;
     }
-    cout << rez;
+    cout <<"Сумма цифр введенного числа = " << rez;
 }
 

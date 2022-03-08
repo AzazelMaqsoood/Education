@@ -9,8 +9,11 @@ int main()
 
     short int a, b, N, rnd;
 
+    cout << "Введите первое число: ";
     cin >> a;
+    cout << "Введите второе число: ";
     cin >> b;
+    cout << "Введите третье число: ";
     cin >> N;
 
     srand(time(0));

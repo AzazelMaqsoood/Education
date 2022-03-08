@@ -7,14 +7,16 @@ int main()
 {
     setlocale(LC_ALL, "Ru");
 
-    short int number, result = 0;
+    short int number, result = 0, i = 0;
 
     cin >> number;
 
-    for (short i = 0; i <= number; i++)
+    do
     {
+        
+        i += 1;
         result += i;
-    }
+    } while (i < number);
     
     cout << result;
 }
