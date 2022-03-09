@@ -9,7 +9,7 @@ int main()
     setlocale(LC_ALL, "Ru");
 
     string str;
-    short charIndex;
+    short charIndex = 0;
 
     cin >> str;
 
