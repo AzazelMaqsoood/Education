@@ -19,7 +19,7 @@ namespace ArrayTask7
             {
                 array[i] = rnd.Next(a,b);
                 Console.WriteLine("{0} ", array[i]);
-                if (array[i] % 2 != 1)
+                if ((array[i]/10)%2 != 1)
                     cnt++;
 
             }
