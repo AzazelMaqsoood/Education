@@ -21,5 +21,5 @@ int main()
         pos += substr.size();
         cnt++;
     }
-    cout << str << endl << "Количество вхождений: " << cnt;
+    cout << "Количество вхождений: " << cnt;
 }

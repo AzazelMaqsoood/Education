@@ -4,12 +4,9 @@
 
 using namespace std;
 
-int main()
+void printFIO(string fullInit)
 {
-	setlocale(LC_ALL, "Ru");
-
 	char buff[10];
-	string fullInit = "Иванов Иван Иванович";
 	string family = fullInit;
 	string fatherName;
 	string name = fullInit;
@@ -47,7 +44,16 @@ int main()
 		}
 	}
 
-
 	cout << fatherName << name << family;
+}
+
+int main()
+{
+	setlocale(LC_ALL, "Ru");
+
+	
+	string fullInit = "Иванов Иван Иванович";
+
+	printFIO(fullInit);
 }
 

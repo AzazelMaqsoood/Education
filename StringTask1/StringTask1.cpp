@@ -1,5 +1,5 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -11,7 +11,7 @@ int main()
     short num = 0;
 
     cout << "Введите строку: ";
-    cin >> str;
+    getline(cin, str);
 
     for (int i = 0; i < str.length(); i++)
     {
@@ -19,8 +19,7 @@ int main()
             str[i] = 'v';
             num += 1;
         }
-        
+
     }
     cout << "Новая строка: " << str << endl << "Количество замен: " << num;
 }
-
