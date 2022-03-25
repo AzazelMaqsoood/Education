@@ -17,7 +17,6 @@ namespace ArrayTask1
                 array[i] = x+n;
                 Console.Write("{0} ", array[i]);
             }
-
         }
     }
 }

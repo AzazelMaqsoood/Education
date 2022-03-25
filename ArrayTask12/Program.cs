@@ -22,7 +22,7 @@ namespace ArrayTask11
             {
                 if (array[i] == x)
                 {
-                    Console.Write("- {0} ", i+1);
+                    Console.Write("- {0} ", i);
                 }
             }
 

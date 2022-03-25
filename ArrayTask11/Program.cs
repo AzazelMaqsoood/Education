@@ -11,7 +11,7 @@ namespace ArrayTask11
             Random rnd = new Random();
             int equalCnt = 0;
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 5; i++)
             {
                 array[i] = rnd.Next(1, 5);
                 Console.WriteLine("{0} ",array[i]);
