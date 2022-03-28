@@ -9,12 +9,12 @@ namespace MatrixTask3
         {
             int[,] matrix = new int[5, 5];
             Random rnd = new Random();
-            float max = 0;
-            float min = 0.1f;
-            float i_min = 0;
-            float j_min = 0;
-            float i_max = 0;
-            float j_max = 0;
+            int max = 0;
+            int min = -1;
+            int i_min = 0;
+            int j_min = 0;
+            int i_max = 0;
+            int j_max = 0;
 
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
@@ -30,6 +30,10 @@ namespace MatrixTask3
                         i_max = i;
                         j_max = j;
                     }
+
+                    if (min == -1)
+                        min = matrix[i, j];
+
                     if (matrix[i, j] <= min && min !=0)
                     {
                         min = matrix[i, j];
